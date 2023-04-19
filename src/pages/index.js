@@ -17,10 +17,12 @@ export default function Home() {
         <div className={styles.center}>
           <Image
             src="/thinair.svg"
+            className={styles.logo}
             alt="Thin Air Logo"
             width={100}
             height={100}
             priority
+            draggable={false}
           />
         </div>
       </main>
